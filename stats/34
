@@ -1,0 +1,885 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html>
+<html lang="pl" xmlns="http://www.w3.org/1999/xhtml"><head id="j_idt2"><script type="text/javascript" src="/kandydat/javax.faces.resource/jsf.js.html?ln=javax.faces"></script><script type="text/javascript" src="/kandydat/javax.faces.resource/jquery/jquery.js.html?ln=primefaces&amp;v=6.1"></script><script type="text/javascript" src="/kandydat/javax.faces.resource/jquery/jquery-plugins.js.html?ln=primefaces&amp;v=6.1"></script><script type="text/javascript" src="/kandydat/javax.faces.resource/core.js.html?ln=primefaces&amp;v=6.1"></script><script type="text/javascript" src="/kandydat/javax.faces.resource/hotkey/hotkey.js.html?ln=primefaces&amp;v=6.1"></script><link type="text/css" rel="stylesheet" href="/kandydat/javax.faces.resource/components.css.html?ln=primefaces&amp;v=6.1" /><script type="text/javascript" src="/kandydat/javax.faces.resource/primefaces-extensions.js.html?ln=primefaces-extensions&amp;v=6.1"></script><link type="text/css" rel="stylesheet" href="/kandydat/javax.faces.resource/blockui/blockui.css.html?ln=primefaces-extensions&amp;v=6.1" /><script type="text/javascript" src="/kandydat/javax.faces.resource/blockui/blockui.js.html?ln=primefaces-extensions&amp;v=6.1"></script><link type="text/css" rel="stylesheet" href="/kandydat/javax.faces.resource/css/fonts.css.html?ln=default" async="async" /><link type="text/css" rel="stylesheet" href="/kandydat/javax.faces.resource/css/layout.css.html?ln=default" async="async" /><link type="text/css" rel="stylesheet" href="/kandydat/javax.faces.resource/css/components.css.html?ln=default" async="async" /><link type="text/css" rel="stylesheet" href="/kandydat/javax.faces.resource/css/media.css.html?ln=default" async="async" /><link type="text/css" rel="stylesheet" href="/kandydat/javax.faces.resource/css/colors.css.html?ln=default" async="async" /><link type="text/css" rel="stylesheet" href="/kandydat/javax.faces.resource/css/cms.css.html?ln=default" async="async" /><link type="text/css" rel="stylesheet" href="/kandydat/javax.faces.resource/css/gdansk.css.html?ln=default" async="async" /><link type="text/css" rel="stylesheet" href="/kandydat/javax.faces.resource/css/radom.css.html?ln=default" async="async" /><link type="text/css" rel="stylesheet" href="/kandydat/javax.faces.resource/css/rzeszow.css.html?ln=default" async="async" /><link type="text/css" rel="stylesheet" href="/kandydat/javax.faces.resource/css/components-moray.css.html?ln=default" async="async" /><link type="text/css" rel="stylesheet" href="/kandydat/javax.faces.resource/css/reporting.css.html?ln=default" async="async" /><link type="text/css" rel="stylesheet" href="/kandydat/javax.faces.resource/css/statistics.css.html?ln=default" async="async" /><link type="text/css" rel="stylesheet" href="/kandydat/javax.faces.resource/waitSpinner.css.html?ln=waitSpinner" /><script type="text/javascript">if(window.PrimeFaces){PrimeFaces.settings.locale='pl';}</script>
+	<title>Nabór szkoły ponadgimnazjalne Śląskie - Statystyki</title>
+
+	<meta charset="utf-8" />
+	<meta name="robots" content="noindex,nofollow" />
+	<meta name="description" content="Vulcan - Aplikacja do Naborow dla Szkol, Gimanazjow i Przedszkoli" />
+	<meta name="author" content="Vulcan Sp. z o.o. http://vulcan.edu.pl" />
+	<meta name="viewport" content="height=device-height, width=device-width,initial-scale=1, maximum-scale=1, user-scalable=no" />
+	
+	<link rel="shortcut icon" type="image/x-icon" href="/kandydat/app/images/favicon.ico" /><script type="text/javascript" src="/kandydat/javax.faces.resource/js/common.js.html?ln=default"></script><script type="text/javascript" src="/kandydat/javax.faces.resource/js/jquery-ui.min.js.html?ln=default"></script><script type="text/javascript" src="/kandydat/javax.faces.resource/js/jquery.blockUI.js.html?ln=default"></script></head><body id="body" onload="scrollToError()" data-layout-font-size="" data-layout-contrast="">
+		<header>
+			<div>
+				<div>Śląskie</div>
+				<div>Nabór szkoły ponadgimnazjalne</div>
+			</div><a href="/kandydat/app/index.html" tabindex="1" title="Kliknij, aby przejsc do sekcji z aktualnymi informacjami o procesie naborow"><h1 data-backgroud-url="">Nabór szkoły ponadgimnazjalne</h1></a>
+	        
+	        <nav>
+	            <ul>
+	                <li><a tabindex="3" href="#" title="Kontrast domyslny">A</a></li>
+	                <li><a href="#" title="Kontrast czarno-bialy">A</a></li>     
+	                <li><a href="#" title="Kontrast zolto-czarny">A</a></li>          
+	                                                  
+	                <li><a href="#" title="Czcionka domyslna">A</a></li>
+	                <li><a href="#" title="Czcinka srednia">A</a></li>     
+	                <li><a href="#" title="Czcionka duza">A</a></li>    
+	            </ul>
+		<ul>
+			<li><a href="/kandydat/app/login.html" tabindex="2" title="Logowanie do aplikacji">Zaloguj się</a></li>
+		</ul>
+				<div class="header">
+				</div>
+	        </nav>
+		</header>
+		
+		<nav>
+			<ul>
+					<li><a href="/kandydat/app/index.html" title="Kliknij, aby przejść do sekcji z aktualnymi informacjami o procesie naborów">Aktualności</a>
+					</li>
+					<li><a href="/kandydat/app/schedule.html" title="Kliknij, aby przejść do strony z informacjami na temat terminarza naborów">Terminy naboru</a>
+					</li>
+					<li><a href="/kandydat/app/offer_pg.html" title="Kliknij, aby przejść do strony z informacją o ofertach dotyczących naborów">Oferta</a>
+					</li>
+					<li><a href="/kandydat/app/statistics.html" title="Kliknij, aby przejść do strony ze statystykami dotyczącymi naborów" open="open">Statystyki chętnych</a>
+					</li>
+					<li><a href="/kandydat/app/admitted_statistics.html" title="Kliknij, aby przejść do strony ze statystykami dotyczącymi naborów">Statystyki przyjętych</a>
+					</li>
+					<li><a href="/kandydat/app/free_places.html" title="Kliknij, aby przejść do strony z informacjami o wolnych miejsach w procesie naboru">Wolne miejsca</a>
+					</li>
+					<li><a href="/kandydat/app/downloads.html" title="Kliknij, aby przejść do strony z plikami do pobrania dotyczącymi procesu naboru">Pliki do pobrania</a>
+					</li>
+					<li><a href="/kandydat/app/help.html" title="Kliknij, aby przejść do strony pomocy dotyczącej procesu naboru">Pomoc</a>
+					</li>
+					<li><a href="/kandydat/app/legal_basis.html" title="Kliknij, aby przejść do strony informującej o podstawach prawnych procesu rekrutacji">Podstawa prawna</a>
+					</li>
+			</ul>
+		</nav>
+	
+	<main><div id="workspaceWrapper">
+		
+		<h1>Statystyki chętnych</h1>
+<form id="j_idt46" name="j_idt46" method="post" action="/kandydat/app/statistics.html" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_idt46" value="j_idt46" />
+
+
+			<h2>Wyszukiwanie szkół</h2><label for="j_idt46:citySelect">Miejscowość:</label><select id="j_idt46:citySelect" name="j_idt46:citySelect" size="1" onchange="mojarra.ab(this,event,'valueChange',0,'j_idt46:schoolSelect j_idt46:cityPartSelectSect')">	<option value="">-- dowolna --</option>
+	<option value="0937899">Będzin</option>
+	<option value="0923584">Bielsko-Biała</option>
+	<option value="0938077">Bieruń</option>
+	<option value="0223266">Brynek</option>
+	<option value="0938670">Bytom</option>
+	<option value="0938887">Chorzów</option>
+	<option value="0924158">Cieszyn</option>
+	<option value="0939094">Czechowice-Dziedzice</option>
+	<option value="0939349">Czeladź</option>
+	<option value="0939409">Czerwionka-Leszczyny</option>
+	<option value="0930868">Częstochowa</option>
+	<option value="0939473">Dąbrowa Górnicza</option>
+	<option value="0216987">Gilowice</option>
+	<option value="0940000">Gliwice</option>
+	<option value="0217461">Gogołowa</option>
+	<option value="0052899">Istebna</option>
+	<option value="0940163">Jastrzębie-Zdrój</option>
+	<option value="0940335">Jaworzno</option>
+	<option value="0133646">Kamienica Polska</option>
+	<option value="0225058">Kamieniec</option>
+	<option value="0937474">Katowice</option>
+	<option value="0931678">Kłobuck</option>
+	<option value="0940849">Knurów</option>
+	<option value="0931750">Koniecpol</option>
+	<option value="0931827">Koziegłowy</option>
+	<option value="0931862">Krzepice</option>
+	<option value="0940890">Lędziny</option>
+	<option value="0931945">Lubliniec</option>
+	<option value="0941139">Łaziska Górne</option>
+	<option value="0941197">Łazy</option>
+	<option value="0059559">Łodygowice</option>
+	<option value="0067300">Międzyświeć</option>
+	<option value="0941286">Mikołów</option>
+	<option value="0062478">Milówka</option>
+	<option value="0941487">Mysłowice</option>
+	<option value="0932057">Myszków</option>
+	<option value="0222195">Nakło Śląskie</option>
+	<option value="0218437">Ornontowice</option>
+	<option value="0218621">Pawłowice</option>
+	<option value="0942104">Piekary Śląskie</option>
+	<option value="0219566">Pilica</option>
+	<option value="0942216">Poręba</option>
+	<option value="0146985">Psary</option>
+	<option value="0942222">Pszczyna</option>
+	<option value="0945083">Pszów</option>
+	<option value="0942417">Pyskowice</option>
+	<option value="0942469">Racibórz</option>
+	<option value="0945108">Radlin</option>
+	<option value="0938806">Radzionków</option>
+	<option value="0942630">Ruda Śląska</option>
+	<option value="0942765">Rybnik</option>
+	<option value="0943121">Rydułtowy</option>
+	<option value="0943150">Siemianowice Śląskie</option>
+	<option value="0943204">Siewierz</option>
+	<option value="0925198">Skoczów</option>
+	<option value="0943428">Sosnowiec</option>
+	<option value="0932413">Szczekociny</option>
+	<option value="0943724">Świętochłowice</option>
+	<option value="0943813">Tarnowskie Góry</option>
+	<option value="0944534">Tychy</option>
+	<option value="0926677">Ustroń</option>
+	<option value="0075268">Węgierska Górka</option>
+	<option value="0927091">Wisła</option>
+	<option value="0944853">Wodzisław Śląski</option>
+	<option value="0945232">Wojkowice</option>
+	<option value="0217120">Wola</option>
+	<option value="0945380">Zabrze</option>
+	<option value="0945491">Zawiercie</option>
+	<option value="0133451">Złoty Potok</option>
+	<option value="0932643">Żarki</option>
+	<option value="0226224">Żarnowiec</option>
+	<option value="0945746">Żory</option>
+	<option value="0927642">Żywiec</option>
+</select><span id="j_idt46:cityPartSelectSect"></span><label for="j_idt46:schoolSelect">Szkoła:</label><select id="j_idt46:schoolSelect" name="j_idt46:schoolSelect" size="1">	<option value="">-- dowolna --</option>
+	<option value="436">,,ALA" Autorskie Liceum Artystyczne i Akademickie w Częstochowie</option>
+	<option value="1015">Akademickie Liceum Ogólnokształcące Politechniki Śląskiej w Gliwicach</option>
+	<option value="1018">Akademickie Liceum Ogólnokształcące Politechniki Śląskiej w Rybniku</option>
+	<option value="156">Akademicki Zespół Szkół - I Liceum Ogólnokształcące im.Jana III Sobieskiego w Piekarach Śląskich</option>
+	<option value="240">Branżowa Szkoła I Stopnia (CKZiU) w Żorach</option>
+	<option value="219">Branżowa Szkoła I Stopnia (ZS) w Istebnej</option>
+	<option value="863">Branżowa Szkoła I Stopnia (ZS) w Złotym Potoku</option>
+	<option value="314">Branżowa Szkoła I Stopnia (ZSCKR) w Nakle Śląskim</option>
+	<option value="248">Branżowa Szkoła I Stopnia (ZSEiU) w Łaziskach Górnych</option>
+	<option value="698">Branżowa Szkoła I Stopnia (ZSE-U) w Świętochłowicach</option>
+	<option value="498">Branżowa Szkoła I Stopnia (ZS im. H. Kołłątaja w Zawierciu)</option>
+	<option value="695">Branżowa Szkoła I Stopnia (ZSMK) w Pyskowicach</option>
+	<option value="897">Branżowa Szkoła I Stopnia (ZSO) w Pawłowicach</option>
+	<option value="356">Branżowa Szkoła I Stopnia (ZSOiT) w Milówce</option>
+	<option value="224">Branżowa Szkoła I Stopnia (ZSP) w Koniecpolu</option>
+	<option value="249">Branżowa Szkoła I Stopnia (ZSP) w Ornontowicach</option>
+	<option value="336">Branżowa Szkoła I stopnia (ZSP) w Pszowie</option>
+	<option value="335">Branżowa Szkoła I stopnia (ZSP) w Radlinie</option>
+	<option value="334">Branżowa Szkoła I stopnia (ZSP 2) w Rydułtowach</option>
+	<option value="840">Branżowa Szkoła I Stopnia (ZSP-Cogito) w Siemianowicach Śląskich</option>
+	<option value="217">Branżowa Szkoła I Stopnia (ZSP-T) w Międzyświeciu</option>
+	<option value="247">Branżowa Szkoła I Stopnia (ZST) w Mikołowie</option>
+	<option value="218">Branżowa Szkoła I Stopnia (ZST) w Ustroniu</option>
+	<option value="514">Branżowa Szkoła I Stopnia ( ZS w Szczekocinach)</option>
+	<option value="906">Branżowa Szkoła I Stopnia (ZSZiO) w Węgierskiej Górce</option>
+	<option value="264">Branżowa Szkoła I Stopnia (ZSZiO) w Woli</option>
+	<option value="690">Branżowa Szkoła I Stopnia (ZSZ nr 2) w Knurowie</option>
+	<option value="733">Branżowa Szkoła I Stopnia dla Młodzieży w Gliwicach</option>
+	<option value="902">Branżowa Szkoła I Stopnia im. Jana Pawła II w Żarnowcu (ZSCKR)</option>
+	<option value="160">Branżowa Szkoła I Stopnia im. St. Ligonia w Piekarach Śląskich</option>
+	<option value="216">Branżowa Szkoła I Stopnia im.W.Reymonta (ZSGH) w Wiśle</option>
+	<option value="463">Branżowa Szkoła I Stopnia  im. Wisławy Szymborskiej w Częstochowie (ZS-ZDZ Katowice)</option>
+	<option value="469">Branżowa Szkoła I Stopnia Izby Rzemieślniczej w Rybniku</option>
+	<option value="907">Branżowa Szkoła I Stopnia Nr 1 (BSP) w Bielsku-Białej</option>
+	<option value="153">Branżowa Szkoła I Stopnia Nr 1 (CKZiU) w Mysłowicach</option>
+	<option value="1051">Branżowa Szkoła I Stopnia nr 1 (CKZiU nr 1) w Raciborzu</option>
+	<option value="652">Branżowa Szkoła I Stopnia Nr 1 (Górnośląskie Centrum Edukacyjne) w Gliwicach </option>
+	<option value="373">Branżowa Szkoła I Stopnia Nr 1 (KCEZ im. Powstańców Śląskich) w Katowicach</option>
+	<option value="262">Branżowa Szkoła I Stopnia Nr 1 (PZS Nr 1) w Pszczynie</option>
+	<option value="101">Branżowa Szkoła I Stopnia Nr 1 (ZS 2) w Jastrzębiu Zdroju</option>
+	<option value="308">Branżowa Szkoła I Stopnia Nr 1 (ZSBA) w Tarnowskich Górach</option>
+	<option value="556">Branżowa Szkoła I Stopnia nr 1 (ZSG-H) w Bytomiu</option>
+	<option value="59">Branżowa Szkoła I Stopnia Nr1 (ZS im.J.Kochanowskiego) w Częstochowie</option>
+	<option value="351">Branżowa Szkoła I Stopnia Nr 1 (ZSME) w Żywcu</option>
+	<option value="752">Branżowa Szkoła I Stopnia Nr 1 (ZS nr 4 im. Janusza Groszkowskiego) w Tychach</option>
+	<option value="177">Branżowa Szkoła I Stopnia Nr 1 (ZST) w Rybniku</option>
+	<option value="534">Branżowa Szkoła I Stopnia Nr 1 (ZSTiL im.S.Staszica) w Czechowicach-Dziedzicach</option>
+	<option value="212">Branżowa Szkoła I Stopnia Nr 1 (ZSTiO) w Skoczowie</option>
+	<option value="587">Branżowa Szkoła I Stopnia Nr 1 (ZST nr 1) w Chorzowie</option>
+	<option value="995">Branżowa Szkoła I Stopnia nr 10</option>
+	<option value="947">Branżowa Szkoła I Stopnia nr 10 (ZSEiI) w Sosnowcu</option>
+	<option value="66">Branżowa Szkoła I Stopnia Nr 10 im. Jana Pawła II (ZST) w Częstochowie</option>
+	<option value="845">Branżowa Szkoła I Stopnia Nr 11 (ZST-E) w Radzionkowie</option>
+	<option value="873">Branżowa Szkoła I Stopnia Nr 12 (CKZiU) w Częstochowie</option>
+	<option value="957">Branżowa Szkoła I Stopnia nr 12 (ZS nr 2 w Katowicach)</option>
+	<option value="380">Branżowa Szkoła I Stopnia Nr 15 (ZSP-M im.Armii Krajowej) w Katowicach</option>
+	<option value="331">Branżowa Szkoła I stopnia nr 1 im. Komisji Edukacji Narodowej (ZSE) w Wodzisławiu Śl.</option>
+	<option value="712">Branżowa Szkoła I Stopnia Nr 1 im. Powstańców Śląskich w Rudzie Śląskiej</option>
+	<option value="117">Branżowa Szkoła I Stopnia Nr 1 w Jaworznie (ZSP 3)</option>
+	<option value="481">Branżowa Szkoła I Stopnia Nr 1 w Kłobucku (ZS Nr 1)</option>
+	<option value="154">Branżowa Szkoła I Stopnia Nr 2 (CKZiU) w Mysłowicach</option>
+	<option value="404">Branżowa Szkoła I Stopnia Nr 2 (CKZiU) w Sosnowcu</option>
+	<option value="676">Branżowa Szkoła I Stopnia Nr 2 (CKZiU nr 1) w Gliwicach</option>
+	<option value="278">Branżowa Szkoła I Stopnia Nr 2 (CKZiU nr 1) w Raciborzu</option>
+	<option value="542">Branżowa Szkoła I Stopnia nr 2 (PSB-ZS) w Bytomiu</option>
+	<option value="263">Branżowa Szkoła I Stopnia Nr 2 (PZS Nr 2) w Pszczynie</option>
+	<option value="755">Branżowa Szkoła I Stopnia Nr 2  (Zespół Szkół nr 5) w Tychach</option>
+	<option value="352">Branżowa Szkoła I Stopnia Nr 2 (ZSB-D) w Żywcu</option>
+	<option value="374">Branżowa Szkoła I Stopnia Nr 2 (ZSG im. G.Morcinka) w Katowicach</option>
+	<option value="102">Branżowa Szkoła I Stopnia Nr 2 (ZSH) w Jastrzębiu Zdroju</option>
+	<option value="500">Branżowa Szkoła I Stopnia Nr 2 ( ZS im. gen. J.Bema w Zawierciu)</option>
+	<option value="1042">Branżowa Szkoła I Stopnia nr 2 (ZS im. gen. Władysława Andersa) w Częstochowie</option>
+	<option value="178">Branżowa Szkoła I Stopnia Nr 2 (ZSME) w Rybniku</option>
+	<option value="519">Branżowa Szkoła I Stopnia Nr 2 (ZSOiZ) w Siemianowicach Śląskich</option>
+	<option value="713">Branżowa Szkoła I Stopnia Nr 2 (ZSP 2) w Rudzie Śląskiej</option>
+	<option value="213">Branżowa Szkoła I Stopnia Nr 2 (ZST) w Cieszynie</option>
+	<option value="309">Branżowa Szkoła I Stopnia Nr 2 (ZSTiO) w Tarnowskich Górach</option>
+	<option value="590">Branżowa Szkoła I Stopnia Nr 2 (ZST nr 2) w Chorzowie</option>
+	<option value="195">Branżowa Szkoła I Stopnia Nr 2 (ZST-U) w Będzinie</option>
+	<option value="891">Branżowa Szkoła I stopnia Nr 2  im. rtm. Witolda Pileckiego (ZST) w Wodzisławiu Ślaskim</option>
+	<option value="484">Branżowa Szkoła I Stopnia Nr 2 w Kłobucku (ZS Nr 2)</option>
+	<option value="232">Branżowa Szkoła I Stopnia Nr 2 w Lublińcu</option>
+	<option value="23">Branżowa Szkoła I Stopnia Nr 2 w ZSB im.Gen.S.Maczka w Bielsku-Białej</option>
+	<option value="155">Branżowa Szkoła I Stopnia Nr 3 (CKZiU) w Mysłowicach</option>
+	<option value="310">Branżowa Szkoła I Stopnia Nr 3 (WZS) w Tarnowskich Górach</option>
+	<option value="758">Branżowa Szkoła I Stopnia Nr 3  (Zespół Szkół nr 6) w Tychach</option>
+	<option value="646">Branżowa Szkoła I Stopnia Nr 3 (Zespół Szkół Samochodowych) w Gliwicach</option>
+	<option value="864">Branżowa Szkoła I Stopnia Nr 3 (ZSE) w Częstochowie</option>
+	<option value="353">Branżowa Szkoła I Stopnia Nr 3 (ZSE-G) w Żywcu</option>
+	<option value="179">Branżowa Szkoła I Stopnia Nr 3 (ZSEU) w Rybniku</option>
+	<option value="375">Branżowa Szkoła I Stopnia Nr 3 (ZSH im. B.Prusa) w Katowicach</option>
+	<option value="835">Branżowa Szkoła I Stopnia Nr 3 (ZSP nr 5) w Rudzie śląskiej</option>
+	<option value="85">Branżowa Szkoła I Stopnia Nr 3 (ZSZ"Sztygarka") w Dąbrowie Górniczej</option>
+	<option value="103">Branżowa Szkoła I Stopnia Nr 3 (ZSZ ) w Jastrzębiu Zdroju</option>
+	<option value="405">Branżowa Szkoła I Stopnia Nr 3 Architektoniczno-Budowlana (CKZiU)  w Sosnowcu</option>
+	<option value="558">Branżowa Szkoła I Stopnia nr 3 im. Gabriela Narutowicza (ZSME) w Bytomiu</option>
+	<option value="214">Branżowa Szkoła I Stopnia Nr 3 im.Macierzy Ziemi Cieszyńskiej (ZSEG) w Cieszynie</option>
+	<option value="333">Branżowa Szkoła I stopnia nr 3 im. Piastów Śląskich (PCKZiU) w Wodzisławiu Śl.</option>
+	<option value="24">Branżowa Szkoła I Stopnia Nr 3 w  ZSEEiM w Bielsku-Białej</option>
+	<option value="280">Branżowa Szkoła I Stopnia Nr 4 (CKZiU nr 2) w Raciborzu</option>
+	<option value="927">Branżowa Szkoła I Stopnia Nr 4 (Zespół Szkół nr 3) w Zabrzu</option>
+	<option value="761">Branżowa Szkoła I Stopnia Nr 4  (Zespół Szkół nr 7) w Tychach</option>
+	<option value="180">Branżowa Szkoła I Stopnia Nr 4 (ZSB) w Rybniku</option>
+	<option value="664">Branżowa Szkoła I Stopnia Nr 4 (ZS Budowlano-Ceramicznych) w Gliwicach</option>
+	<option value="311">Branżowa Szkoła I Stopnia Nr 4 (ZSGH) w Tarnowskich Górach</option>
+	<option value="717">Branżowa Szkoła I Stopnia Nr 4 (ZSP nr 4) w Rudzie Śląskiej</option>
+	<option value="354">Branżowa Szkoła I Stopnia Nr 4 (ZSS) w Żywcu</option>
+	<option value="894">Branżowa Szkoła I Stopnia Nr 4 (ZST)w Dąbrowie Górniczej</option>
+	<option value="60">Branżowa Szkoła I Stopnia Nr4 (ZSTiO im.S.Żeromskiego) w Częstochowie</option>
+	<option value="473">Branżowa Szkoła I Stopnia Nr 4  (ZSZ Nr 3 im.A.Kocura) w Katowicach</option>
+	<option value="406">Branżowa Szkoła I Stopnia Nr 4 Gastronomiczna (CKZiU) w Sosnowcu</option>
+	<option value="215">Branżowa Szkoła I Stopnia Nr 4 im.gen.S.Grota Roweckiego (ZSB) w Cieszynie</option>
+	<option value="634">Branżowa Szkoła I Stopnia  Nr 5 (Zespół Szkół Spożywczych) w Zabrzu</option>
+	<option value="935">Branżowa Szkoła I Stopnia Nr 5 (ZSA-EiO) w Bytomiu</option>
+	<option value="83">Branżowa Szkoła I Stopnia Nr 5 (ZSE) w Dąbrowie Górniczej</option>
+	<option value="1053">Branżowa Szkoła I stopnia Nr 5 (ZSE-T)</option>
+	<option value="599">Branżowa Szkoła I Stopnia Nr 5 (ZSG-U) w Chorzowie</option>
+	<option value="61">Branżowa Szkoła I Stopnia Nr 5 (ZS im.W.S.Reymonta) w Częstochowie</option>
+	<option value="376">Branżowa Szkoła I Stopnia Nr 5 (ZS Nr 7 im. S.Mastalerza) w Katowicach</option>
+	<option value="355">Branżowa Szkoła I Stopnia Nr 5 im. J. Piłsudskiego (ZSAiO) w Żywcu</option>
+	<option value="721">Branżowa Szkoła I Stopnia Nr 5 w Rudzie Śląskiej</option>
+	<option value="25">Branżowa Szkoła I Stopnia Nr5 w ZSSiO w Bielsku-Białej</option>
+	<option value="626">Branżowa Szkoła I Stopnia Nr 6 (ZCKOiZ) w Zabrzu</option>
+	<option value="936">Branżowa Szkoła I Stopnia Nr 6 (ZSTiO) w Bytomiu</option>
+	<option value="62">Branżowa Szkoła I Stopnia Nr6 im.M.Skłodowskiej-Curie (ZSG) w Częstochowie</option>
+	<option value="26">Branżowa Szkoła I Stopnia Nr 6 w Zespole Szkół Ogrodniczych w Bielsku-Białej</option>
+	<option value="610">Branżowa Szkoła I Stopnia Nr 7 (CKOiZ) w Zabrzu</option>
+	<option value="597">Branżowa Szkoła I Stopnia Nr 7 (ZSB) w Chorzowie</option>
+	<option value="63">Branżowa Szkoła I Stopnia Nr 7 (ZSM-E) w Częstochowie</option>
+	<option value="838">Branżowa Szkoła I Stopnia Nr 7 (ZSnr5) w Rudzie Śląskiej</option>
+	<option value="377">Branżowa Szkoła I Stopnia Nr 7 (ZSPS im. J.Rymera I Wojewody Śl.) w Katowicach</option>
+	<option value="817">Branżowa Szkoła I Stopnia nr 7(ZSU-R) w Bytomiu</option>
+	<option value="408">Branżowa Szkoła I Stopnia Nr 7 Samochodowo-Mechatroniczna (CKZiU) w Sosnowcu</option>
+	<option value="27">Branżowa Szkoła I Stopnia Nr 7 w ZSTiH w Bielsku-Białej</option>
+	<option value="628">Branżowa Szkoła I Stopnia Nr 8 (ZS Mechaniczno-Samochodowych) w Zabrzu</option>
+	<option value="64">Branżowa Szkoła I Stopnia Nr 8 (ZSS-B) w Częstochowie</option>
+	<option value="378">Branżowa Szkoła I Stopnia Nr 8 (ZSZ im.R.Mielczarskiego)  w Katowicach</option>
+	<option value="28">Branżowa Szkoła I Stopnia Nr8 w ZSGiH w Bielsku-Białej</option>
+	<option value="631">Branżowa Szkoła I Stopnia  Nr 9 (Zespół Szkół Ekonomiczno-Usługowych) w Zabrzu</option>
+	<option value="65">Branżowa Szkoła I Stopnia Nr 9 (ZS im. B. Prusa) w Częstochowie</option>
+	<option value="379">Branżowa Szkoła I Stopnia Nr 9 (ZS Nr 1 im.gen.J.Ziętka) w Katowicach</option>
+	<option value="410">Branżowa Szkoła I Stopnia Nr 9 Rzemieślniczo-Artystyczna (CKZiU) w Sosnowcu</option>
+	<option value="910">Branżowa Szkoła I Stopnia w Bielsku-Białej (ZS-ZDZ Katowice)</option>
+	<option value="572">Branżowa Szkoła I Stopnia w Bieruniu</option>
+	<option value="909">Branżowa Szkoła I Stopnia w Bytomiu (ZS-ZDZ Katowice)</option>
+	<option value="1044">Branżowa Szkoła I Stopnia w Cieszynie ZDZ w Katowicach </option>
+	<option value="283">Branżowa Szkoła I Stopnia w Czerwionce-Leszczynach</option>
+	<option value="908">Branżowa Szkoła I Stopnia w Dąbrowie Górniczej (ZS-ZDZ Katowice)</option>
+	<option value="490">Branżowa Szkoła I Stopnia w Krzepicach (ZS)</option>
+	<option value="575">Branżowa Szkoła I Stopnia w Lędzinach</option>
+	<option value="797">Branżowa Szkoła I Stopnia w Myszkowie (ZS nr 1)</option>
+	<option value="705">Branżowa Szkoła I Stopnia w Rybniku (ZS- ZDZ w Katowicach)</option>
+	<option value="772">Branżowa Szkoła I Stopnia w Sosnowcu (ZS-ZDZ Katowice) </option>
+	<option value="1027">Branżowa Szkoła I Stopnia w Ustroniu ZDZ w Katowicach </option>
+	<option value="765">Branżowa Szkoła I Stopnia w Żarkach (ZS-ZDZ Katowice)</option>
+	<option value="468">Branżowa Szkoła I Stopnia w Żywcu (ZS-ZDZ Katowice) </option>
+	<option value="90">III Liceum Ogólnokształcące (ZS 3) w Jastrzębiu Zdroju</option>
+	<option value="1045">III Liceum Ogólnokształcące (ZSCHMiO) w Tarnowskich Górach</option>
+	<option value="31">III Liceum Ogólnokształcące (ZS im. dr W.Biegańskiego) w Częstochowie</option>
+	<option value="339">III Liceum Ogólnokształcące (ZSME) w Żywcu</option>
+	<option value="710">III Liceum Ogólnokształcące (ZSO nr 3 im. Jana Pawła II) w Rudzie Śląskiej</option>
+	<option value="319">III Liceum Ogólnokształcące (ZST) w Wodzisławiu Śl.</option>
+	<option value="528">III Liceum Ogólnokształcące (ZSTiO "Meritum") w Siemianowicach Śląskich</option>
+	<option value="124">III Liceum Ogólnokształcące im.A.Mickiewicza w Katowicach</option>
+	<option value="185">III Liceum Ogólnokształcące im.C.K.Norwida w Będzinie</option>
+	<option value="71">III Liceum Ogólnokształcące im.Gen. Wł. Andersa (ZSO nr 2) w Dąbrowie Górniczej</option>
+	<option value="485">III Liceum Ogólnokształcące im. Kazimierza Kosińskiego w Kłobucku (ZS Nr 3)</option>
+	<option value="821">III Liceum Ogólnokształcące im. prof. Zbigniewa Religi w Lublińcu</option>
+	<option value="580">III Liceum Ogólnokształcące im. St.Batorego (AZSO nr 2) w Chorzowie</option>
+	<option value="742">III Liceum Ogólnokształcące im. Stanisława Wyspiańskiego w Tychach</option>
+	<option value="1011">III Liceum Ogólnokształcące im. W.Styczyńskiego w Gliwicach (ZSO8)</option>
+	<option value="198">III LiceumOgólnokształcące im.W.Szybińskiego (ZS) w Cieszynie</option>
+	<option value="383">III Liceum Ogólnokształcące Mistrzostwa Sportowego im. B.Prusa (ZSO 3) w Sosnowcu</option>
+	<option value="106">III Liceum Ogólnokształcące w Jaworznie (ZSO)</option>
+	<option value="421">III Liceum Ogólnokształcące w Pszczynie</option>
+	<option value="605">III Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi  (ZSO Nr 11) w Zabrzu</option>
+	<option value="3">III Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi w ZSO im.S.Żeromskiego w Bielsku-Białej</option>
+	<option value="235">III Liceum Ogólnokształcące z Oddziałami Mistrzostwa Sportowego im. Z. Herberta (ZS Nr 3) w Żorach</option>
+	<option value="382">II Liceum Ogólnokształcace im. E.Plater w Sosnowcu</option>
+	<option value="285">II Liceum Ogólnokształcace im.St.Staszica w Tarnowskich Górach</option>
+	<option value="157">II Liceum Ogólnokształcące (Zespół Szkół nr 1) w Piekarach Śląskich</option>
+	<option value="604">II Liceum Ogólnokształcące (Zespół Szkół Ogólnokształcących Nr 5) w Zabrzu</option>
+	<option value="89">II Liceum Ogólnokształcące (ZS 2) w Jastrzębiu Zdroju</option>
+	<option value="234">II Liceum Ogólnokształcące (ZS Nr 2 ) w Żorach</option>
+	<option value="702">II Liceum Ogólnokształcące (ZSO-2) w Świętochłowicach</option>
+	<option value="547">II Liceum Ogólnokształcące (ZSO nr 2) w Bytomiu</option>
+	<option value="688">II Liceum Ogólnokształcące (ZSZ nr 2) w Knurowie</option>
+	<option value="2">II Liceum Ogólnokształcące im. A.Asnyka w Bielsku-Białej</option>
+	<option value="162">II Liceum Ogólnokształcące  im.A.Frycza Modrzewskiego (ZS 2) w Rybniku</option>
+	<option value="266">II Liceum Ogólnokształcące im.A.Mickiewicza w Raciborzu</option>
+	<option value="105">II Liceum Ogólnokształcące im.C.Miłosza w Jaworznie</option>
+	<option value="709">II Liceum Ogólnokształcące im. Gustawa Morcinka w Rudzie Śląskiej</option>
+	<option value="492">II Liceum Ogólnokształcące im. H. Malczewskiej w Zawierciu</option>
+	<option value="582">II Liceum Ogólnokształcące im. J.Ligonia (ZSO nr 1) w Chorzowie</option>
+	<option value="518">II Liceum Ogólnokształcące im. Jana Matejki w Siemianowicach Śląskich</option>
+	<option value="123">II Liceum Ogólnokształcące im.M.Konopnickiej w Katowicach</option>
+	<option value="197">II Liceum Ogólnokształcące im.M.Kopernika w Cieszynie</option>
+	<option value="147">II Liceum Ogólnokształcące im. Powstańców Śląskich w Mysłowicach</option>
+	<option value="30">II Liceum Ogólnokształcące im. R.Traugutta w Częstochowie</option>
+	<option value="184">II Liceum Ogólnokształcące im.S.Wyspiańskiego w Będzinie</option>
+	<option value="654">II Liceum Ogólnokształcące im. W. Wróblewskiego w Gliwicach</option>
+	<option value="68">II Liceum Ogólnokształcące w Dąbrowie Górniczej</option>
+	<option value="227">II Liceum Ogólnokształcące w Lublińcu </option>
+	<option value="242">II Liceum Ogólnokształcące w Mikołowie</option>
+	<option value="741">II Liceum Ogólnokształcące z Oddziałami Integracyjnymi im. C.K.Norwida w Tychach</option>
+	<option value="318">II LO z Oddz. Dwujęzyczn. i Integr. im.ks.prof.J.Tischnera w Wodzisławiu Śl (w ZSP)</option>
+	<option value="691">I Liceum Ogólnokształcące (ZS im. I. J. Paderewskiego) w Knurowie</option>
+	<option value="701">I Liceum Ogólnokształcące (ZSO-1) w Świętochłowicach</option>
+	<option value="265">I Liceum Ogólnokształcące (ZSO Nr 1) w Raciborzu</option>
+	<option value="708">I Liceum Ogólnokształcące (ZSO nr 1 im. A.Mickiewicza)  w Rudzie Śląskiej</option>
+	<option value="653">I Liceum Ogólnokształcące Dwujęzyczne im. Edwarda Dembowskiego w Gliwicach		</option>
+	<option value="317">I Liceum  Ogólnokształcące im. 14 Pułku Powst.Śl. w Wodzisławiu Śl.</option>
+	<option value="226">I Liceum Ogólnokształcące im. A. Mickiewicza w Lublińcu</option>
+	<option value="196">I Liceum Ogólnokształcące im.A.Osuchowskiego w Cieszynie</option>
+	<option value="251">I Liceum Ogólnokształcące im.B.Chrobrego (ZSO) w Pszczynie </option>
+	<option value="579">I Liceum Ogólnokształcące im. J. Słowackiego (AZSO) w Chorzowie</option>
+	<option value="29">I Liceum Ogólnokształcące im. J.Słowackiego w Częstochowie</option>
+	<option value="517">I Liceum Ogólnokształcące im. Jana Śniadeckiego w Siemianowicach Śląskich</option>
+	<option value="241">I Liceum Ogólnokształcące im. Karola Miarki w Mikołowie</option>
+	<option value="740">I Liceum Ogólnokształcące im. Leona Kruczkowskiego w Tychach </option>
+	<option value="183">I Liceum Ogólnokształcące im.M.Kopernika w Będzinie</option>
+	<option value="1">I Liceum Ogólnokształcące im.M.Kopernika w Bielsku-Białej</option>
+	<option value="337">I Liceum Ogólnokształcące im. M. Kopernika w Żywcu</option>
+	<option value="200">I Liceum Ogólnokształcące im.P.Stalmacha (ZSO) w Wiśle</option>
+	<option value="603">I Liceum Ogólnokształcące im. prof. Zbigniewa Religi (Zespół Szkół Ogólnokształcących) w Zabrzu</option>
+	<option value="284">I Liceum Ogólnokształcące im.S.Sempołowskiej w Tarnowskich Górach</option>
+	<option value="146">I Liceum Ogólnokształcące im. T.Kościuszki (ZSO) w Mysłowicach</option>
+	<option value="104">I Liceum Ogólnokształcące im.T.Kościuszki w Jaworznie</option>
+	<option value="381">I Liceum Ogólnokształcące im.W. Roździeńskiego (ZSO 1) w Sosnowcu</option>
+	<option value="546">I Liceum Ogólnokształcące w Bytomiu</option>
+	<option value="67">I Liceum Ogólnokształcące w Dąbrowie Górniczej</option>
+	<option value="479">I Liceum Ogólnokształcące w Kłobucku (ZS Nr 1)</option>
+	<option value="122">I Liceum Ogólnokształcące z Oddz. Dwujęzycznymi im. M. Kopernika w Katowicach</option>
+	<option value="88">I Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi (ZS 1) w Jastrzębiu Zdroju</option>
+	<option value="233">I Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. K. Miarki (ZSO) w Żorach</option>
+	<option value="161">I Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Powstańców Śl. w Rybniku (ZS1)</option>
+	<option value="491">I Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Stefana  Żeromskiego w Zawierciu</option>
+	<option value="420">I Społeczne Liceum Ogólnokształcace im.S.Konarskiego STO w Katowicach</option>
+	<option value="435">I Społeczne Liceum Ogólnokształcące im.Z.Herberta STO w Częstochowie</option>
+	<option value="252">IV Liceum Ogólnokształcące (PZS Nr 2) w Pszczynie </option>
+	<option value="743">IV Liceum Ogólnokształcące  (Zespół Szkół nr 1 im. Gustawa Morcinka) w Tychach</option>
+	<option value="655">IV Liceum Ogólnokształcące (Zespół Szkół Ogólnokształcących Nr 1) w Gliwicach</option>
+	<option value="606">IV Liceum Ogólnokształcące (Zespół Szkół Ogólnokształcących Nr 12) w Zabrzu</option>
+	<option value="91">IV Liceum Ogólnokształcące (ZS 6) w Jastrzębiu Zdroju</option>
+	<option value="723">IV Liceum Ogólnokształcące (ZSO nr 4) im. H.C.Hoovera) w Rudzie Śląskiej</option>
+	<option value="125">IV Liceum Ogólnokształcące im.gen.S.Maczka w Katowicach</option>
+	<option value="32">IV Liceum Ogólnokształcące im.H.Sienkiewicza w Częstochowie</option>
+	<option value="4">IV Liceum Ogólnokształcące im.KEN w Bielsku-Białej</option>
+	<option value="163">IV Liceum Ogólnokształcące im.M.Kopernika w Rybniku</option>
+	<option value="581">IV Liceum Ogólnokształcące im. M. Skłodowskiej - Curie w Chorzowie</option>
+	<option value="548">IV Liceum Ogólnokształcące w Bytomiu</option>
+	<option value="107">IV Liceum Ogólnokształcące w Jaworznie (ZSP 2)</option>
+	<option value="384">IV Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi  im. S. Staszica w Sosnowcu</option>
+	<option value="614">IX Liceum Ogólnokształcące (Centrum Edukacji ) w Zabrzu</option>
+	<option value="815">IX Liceum Ogólnokształcące im. C.K.Norwida w Częstochowie</option>
+	<option value="130">IX Liceum Ogólnokształcące im.H.Sienkiewicza w Katowicach</option>
+	<option value="583">IX Liceum Ogólnokształcące Mistrzostwa Sportowego (ZSO nr 2) w Chorzowie</option>
+	<option value="981">IX Liceum Ogólnokształcące w Sosnowcu</option>
+	<option value="434">Katolickie Liceum Ogólnokszt. SPSK im. Matki Bożej Jasnogórskiej w Częstochowie</option>
+	<option value="440">Katolickie Liceum Ogólnokształcące im.E.Szramka w Katowicach</option>
+	<option value="437">Katolickie Liceum Ogólnokształcące im.św.Jana Bosko w Sosnowcu</option>
+	<option value="449">Katolickie Liceum Ogólnokształcące im.św.M.Grodzieckiego w Cieszynie</option>
+	<option value="431">Katolickie Liceum Ogólnokształcące im. św Brata Alberta w Dąbrowie Górniczej</option>
+	<option value="1038">Katolickie Liceum Ogólnokształcące Specjalne SPSK w Częstochowie</option>
+	<option value="568">Liceum Ogólnokształcące ''Mundurowe" w Bytomiu (ZS - ZDZ w Katowicach)</option>
+	<option value="462">Liceum Ogólnokształcące "Mundurowe" im. Wisławy Szymborskiej w Częstochowie (ZS-ZDZ Katowice) </option>
+	<option value="507">Liceum Ogólnokształcące    ( ZS im. prof. R. Gostkowskiego w Łazach)</option>
+	<option value="693">Liceum Ogólnokształcące (ZSMK) w Pyskowicach</option>
+	<option value="686">Liceum Ogólnokształcące (ZSO) w Kamieńcu</option>
+	<option value="415">Liceum Ogólnokształcące (ZSO) w Pawłowicach</option>
+	<option value="341">Liceum Ogólnokształcące (ZSOiT) w Milówce</option>
+	<option value="188">Liceum Ogólnokształcące (ZSOiT) w Wojkowicach</option>
+	<option value="221">Liceum Ogólnokształcące (ZSP) w Koniecpolu</option>
+	<option value="199">Liceum Ogólnokształcące (ZSTiO) w Skoczowie</option>
+	<option value="510">Liceum Ogólnokształcące   ( ZS w Pilicy)</option>
+	<option value="512">Liceum Ogólnokształcące    ( ZS w Szczekocinach)</option>
+	<option value="898">Liceum Ogólnokształcące (ZS-ZDZ Katowice)</option>
+	<option value="432">Liceum Ogólnokształcące COR  w Bielsku-Białej</option>
+	<option value="778">Liceum Ogólnokształcące im. M. Kopernika (ZS w Porębie)</option>
+	<option value="186">Liceum Ogólnokształcące im.M.Skłodowskiej-Curie (ZSOiT) w Czeladzi</option>
+	<option value="532">Liceum Ogólnokształcące im. M.Skłodowskiej-Curie w Czechowicach-Dziedzicach</option>
+	<option value="801">Liceum Ogólnokształcące im. M.Skłodowskiej-Curie w Koziegłowach (ZS)</option>
+	<option value="795">Liceum Ogólnokształcące im.mjr.H.Sucharskiego w Myszkowie</option>
+	<option value="320">Liceum Ogólnokształcące im. Noblistów Polskich w Rydułtowach</option>
+	<option value="570">Liceum Ogólnokształcące im. Powstańców Śląskich w Bieruniu</option>
+	<option value="288">Liceum Ogólnokształcące im. Powstańców Śląskich w Radzionkowie</option>
+	<option value="423">Liceum Ogólnokształcące im. prof. Zbigniewa Religi w Gilowicach </option>
+	<option value="439">Liceum Ogólnokształcące im.W.Jagiełły w Łodygowicach</option>
+	<option value="281">Liceum Ogólnokształcące im. W.Szewczyka w Czerwionce-Leszczynach</option>
+	<option value="442">Liceum Ogólnokształcące KTK w Bielsku-Białej</option>
+	<option value="839">Liceum Ogólnokształcące Ośrodka Edukacji "Sokrates" w Bielsku-Białej</option>
+	<option value="450">Liceum Ogólnokształcące Towarzystwa Ewangelickiego w Cieszynie</option>
+	<option value="823">Liceum Ogólnokształcące Towarzystwa Szkolnego im. M. Reja w Bielsku-Białej</option>
+	<option value="414">Liceum Ogólnokształcące w Gogołowej (ZS)</option>
+	<option value="220">Liceum Ogólnokształcące w Kamienicy Polskiej</option>
+	<option value="488">Liceum Ogólnokształcące w Krzepicach (ZS)</option>
+	<option value="573">Liceum Ogólnokształcące w Lędzinach</option>
+	<option value="983">Liceum Ogólnokształcące w Ornontowicach </option>
+	<option value="426">Liceum Ogólnokształcące w Psarach</option>
+	<option value="187">Liceum Ogólnokształcące w Siewierzu (ZSOiT)</option>
+	<option value="799">Liceum Ogólnokształcące w Żarkach (ZS)</option>
+	<option value="1004">Liceum Ogólnokształcące w Żarkach (ZS-ZDZ Katowice)</option>
+	<option value="430">Liceum Ogólnokształcące Zgromadzenia Córek Bożej Miłości w Bielsku-Białej</option>
+	<option value="905">Liceum Ogólnokształcące „Mundurowe” w Rybniku (ZS-ZDZ w  Katowicach)</option>
+	<option value="696">Liceum plastyczne (ZS Nr 18) w Zabrzu</option>
+	<option value="992">Liceum Plastyczne (ZS Nr 3) w Żorach</option>
+	<option value="82">Liceum Plastyczne im.T.Kantora (ZSP) w Dąbrowie Górniczej</option>
+	<option value="828">Liceum Plastyczne w Cieszynie (ZS-ZDZ Katowice)</option>
+	<option value="812">Liceum Plastyczne w Wodzisławiu Śląskim (w ZSP)</option>
+	<option value="70">Liceum Sportowe w ZSS im. Polskich Olimpijczyków w Dąbrowie Górniczej</option>
+	<option value="807">Mundurowa Branżowa Szkoła I Stopnia im. Orląt Lwowskich w Tychach (ZS-ZDZ Katowice)</option>
+	<option value="788">Mundurowe Liceum Ogólnokształcące "LIDER" w Częstochowie</option>
+	<option value="763">Mundurowe Liceum Ogólnokształcące im.Orląt Lwowskich w Tychach (ZS-ZDZ Katowice)</option>
+	<option value="847">Mundurowe Technikum im. Orląt Lwowskich w Tychach (ZS-ZDZ Katowice)</option>
+	<option value="915">Niepubliczne Policyjne Liceum Ogólnokształacące "AS" w Sosnowcu</option>
+	<option value="917">Niepubliczne Technikum Kolejowe w Tychach im. kpt. Jana Rybczyńskiego i załogi pociągu „Groźny”.</option>
+	<option value="1012">Prywatne Technikum Informatyczne w Bielsku-Białej</option>
+	<option value="167">Publiczne Liceum Ogólnokształcące Sióstr Urszulanek U. Rz. w Rybniku</option>
+	<option value="729">Publiczne Liceum Ogólnokształcące SRKAK w Chorzowie</option>
+	<option value="791">Rzemieślnicza Branżowa Szkoła I Stopnia w Katowicach</option>
+	<option value="703">Salezjańskie Liceum Ogólnokształcące (SZSP) w Świętochłowicach</option>
+	<option value="704">Salezjańskie Technikum Elektroniczne (SZSP) w Świętochłowicach</option>
+	<option value="1005">Społeczne Licem Ogólnokształcące OMEGA im. Górnośląskich Noblistów w Katowicach</option>
+	<option value="456">Społeczne Liceum Ogólnokształcące (ZSS) w Żorach</option>
+	<option value="793">Społeczne Liceum Ogólnokształcące im.W.Korfantego w Katowicach</option>
+	<option value="457">Społeczne Technikum (ZSS) w Żorach</option>
+	<option value="976">Szkoła branżowa I stopnia ZSOiT Czeladż</option>
+	<option value="223">Technikum (ZS) w Złotym Potoku</option>
+	<option value="307">Technikum (ZSCKR) w Nakle Śląskim</option>
+	<option value="245">Technikum (ZSEiU) w Łaziskach Górnych</option>
+	<option value="700">Technikum (ZSE-U) w Świętochłowicach</option>
+	<option value="508">Technikum ( ZS im. prof. R. Gostkowskiego w Łazach)</option>
+	<option value="416">Technikum (ZSO) w Pawłowicach</option>
+	<option value="222">Technikum (ZSP) w Koniecpolu</option>
+	<option value="246">Technikum (ZSP) w Ornontowicach</option>
+	<option value="330">Technikum (ZSP) w Pszowie</option>
+	<option value="328">Technikum (ZSP 2) w Rydułtowach</option>
+	<option value="211">Technikum (ZSP-T) w Międzyświeciu</option>
+	<option value="244">Technikum (ZST) w Mikołowie</option>
+	<option value="210">Technikum (ZST) w Ustroniu</option>
+	<option value="349">Technikum (ZSTiO) w Milówce</option>
+	<option value="208">Technikum (ZSTiO) w Skoczowie</option>
+	<option value="513">Technikum ( ZS w Szczekocinach)</option>
+	<option value="350">Technikum (ZSZiO) w Węgierskiej Górce </option>
+	<option value="261">Technikum (ZSZiO) w Woli</option>
+	<option value="689">Technikum (ZSZ nr 2) w Knurowie</option>
+	<option value="193">Technikum Architektury Krajobrazu (ZSOiT) w Wojkowicach</option>
+	<option value="596">Technikum Budowlane (ZSB) w Chorzowie</option>
+	<option value="595">Technikum Chemiczne (ZSTiO nr 4) w Chorzowie</option>
+	<option value="602">Technikum Ekonomiczne (CKZIU) w Chorzowie</option>
+	<option value="586">Technikum Elektroniczne (ZST nr 1) w Chorzowie</option>
+	<option value="455">Technikum Energetyczne w Jaworznie (CKZiU)</option>
+	<option value="598">Technikum Gastronomiczne (ZSG-U) w Chorzowie</option>
+	<option value="901">Technikum im. Jana Pawła II w Żarnowcu (ZSCKR)</option>
+	<option value="505">Technikum im. M. Kopernika( ZS w Porębie)</option>
+	<option value="209">Technikum im.W.Reymonta (ZSGH) w Wiśle</option>
+	<option value="868">Technikum im.Wisławy Szymborskiej w Częstochowie (ZS-ZDZ Katowice)</option>
+	<option value="930">Technikum Informatyczne w Rybniku (ZS-ZDZ)w Katowicach</option>
+	<option value="477">Technikum Lotnicze w Katowicach (ZDZ Katowice) </option>
+	<option value="593">Technikum Mechaniczno-Elektryczne im. Nikoli Tesli (ZSTiO nr 3) w Chorzowie</option>
+	<option value="206">Technikum Mechaniczno-Elektryczne Nr 3 (ZST) w Cieszynie</option>
+	<option value="616">Technikum Nr 1 (Centrum Edukacji ) w Zabrzu</option>
+	<option value="150">Technikum nr 1 (CKZiU) w Mysłowicach</option>
+	<option value="273">Technikum Nr 1 (CKZiU nr 1) w Raciborzu</option>
+	<option value="144">Technikum Nr 1 (KCEZ im. Powstańców Śląskich) w Katowicach</option>
+	<option value="258">Technikum nr 1 (PZS Nr 1) w Pszczynie</option>
+	<option value="158">Technikum Nr 1 (Zespół Szkół nr 1) w Piekarach Śląskich</option>
+	<option value="745">Technikum nr 1  (Zespół Szkół nr 1 im. Gustawa Morcinka) w Tychach</option>
+	<option value="672">Technikum Nr 1 (Zespół Szkół Techniczno-Informatycznych) w Gliwicach</option>
+	<option value="425">Technikum nr 1 (ZS) w Woli</option>
+	<option value="95">Technikum nr 1 (ZS 2) w Jastrzębiu Zdroju</option>
+	<option value="237">Technikum Nr 1 (ZSB-I) w Żorach</option>
+	<option value="294">Technikum nr 1 (ZSCHMiO) w Tarnowskich Górach</option>
+	<option value="555">Technikum nr 1 (ZSG-H) w Bytomiu</option>
+	<option value="692">Technikum nr 1 (ZS im. I.J. Paderewskiego) w Knurowie</option>
+	<option value="494">Technikum Nr 1 ( ZS im. X.Dunikowskiego w Zawierciu)</option>
+	<option value="343">Technikum Nr 1 (ZSME) w Żywcu</option>
+	<option value="191">Technikum Nr 1 (ZSOiT) w Czeladzi</option>
+	<option value="523">Technikum Nr 1 (ZSP-Cogito) w Siemianowicach Śląskich</option>
+	<option value="171">Technikum nr 1 (ZST) w Rybniku</option>
+	<option value="535">Technikum Nr 1 ( ZSTiL im.S.Staszica) w Czechowicach-Dziedzicach</option>
+	<option value="79">Technikum nr 1 (ZSZ"Sztygarka" im.S.Staszica) w Dąbrowie Górniczej</option>
+	<option value="364">Technikum Nr 10 (ZSPS im. J.Rymera I Wojewody Śląskiego) w Katowicach</option>
+	<option value="56">Technikum Nr 10 (ZSS-B) w Częstochowie</option>
+	<option value="57">Technikum Nr 11 (ZS im. B. Prusa) w Częstochowie</option>
+	<option value="21">Technikum Nr 11 w ZS im.J.Tuwima w Bielsku-Białej</option>
+	<option value="366">Technikum nr 12 (ZSTiO Nr 3  im.E.Abramowskiego) w Katowicach</option>
+	<option value="304">Technikum nr 12 (ZSTU) w Tarnowskich Górach</option>
+	<option value="58">Technikum Nr 12 im. Jana Pawła II (ZST) w Częstochowie</option>
+	<option value="305">Technikum nr 13 (ZSTE) w Radzionkowie</option>
+	<option value="367">Technikum Nr 13 (ZSZ im.R.Mielczarskiego)  w Katowicach</option>
+	<option value="368">Technikum Nr 14 (ZSZ Nr 3 im.A.Kocura) w Katowicach</option>
+	<option value="306">Technikum nr 14 z Odd. Integracyjnymi (Salezjański OSW) w Tarnowskich Górach</option>
+	<option value="369">Technikum Nr 15 im. T. Klenczara</option>
+	<option value="370">Technikum Nr 16 (ZS Nr 2 im.J.Iwaszkiewicza) w Katowicach</option>
+	<option value="371">Technikum Nr 17-Śląskie Techniczne Zakłady Naukowe w Katowicach</option>
+	<option value="372">Technikum Nr 18 (ZSP-M im.Armii Krajowej) w Katowicach</option>
+	<option value="395">Technikum nr 1 Ekonomiczne (CKZiU) w Sosnowcu</option>
+	<option value="325">Technikum Nr 1 im. Piastów Śląskich (PCKZiU) w Wodzisławiu Śl.</option>
+	<option value="711">Technikum nr 1 im. Powstańców Śląskich w Rudzie Śląskiej</option>
+	<option value="204">Technikum Nr 1 im.W.Szybińskiego (ZS) w Cieszynie</option>
+	<option value="12">Technikum Nr 1 w BSP w Bielsku-Białej</option>
+	<option value="111">Technikum nr 1 w Jaworznie (ZSP 3)</option>
+	<option value="480">Technikum Nr 1 w Kłobucku (ZS Nr 1)</option>
+	<option value="1039">Technikum nr 1 w Lublińcu</option>
+	<option value="796">Technikum nr 1 w Myszkowie (ZS nr 1)</option>
+	<option value="151">Technikum nr 2 (CKZiU) w Myslowicach</option>
+	<option value="274">Technikum Nr 2 (CKZiU nr 1) w Raciborzu</option>
+	<option value="649">Technikum Nr 2 (Górnośląskie Centrum Edukacyjne) w Gliwicach</option>
+	<option value="541">Technikum nr 2 (PSB-ZS) w Bytomiu</option>
+	<option value="80">Technikum nr 2 (TZN) w Dąbrowie Górniczej</option>
+	<option value="627">Technikum Nr 2 (Zespół Szkół Mechaniczno-Samochodowych ) w Zabrzu</option>
+	<option value="747">Technikum nr 2  (Zespół Szkół nr 2) w Tychach</option>
+	<option value="537">Technikum Nr 2 (ZS"Silesia") w Czechowicach-Dziedzicach</option>
+	<option value="1006">Technikum nr 2 (ZS2) w Myszkowie</option>
+	<option value="96">Technikum nr 2 (ZS 5) w Jastrzębiu Zdroju</option>
+	<option value="295">Technikum nr 2 (ZSBA) w Tarnowskich Górach</option>
+	<option value="344">Technikum Nr 2 (ZSB-D) w Żywcu</option>
+	<option value="145">Technikum Nr 2 (ZSE im. W.Korfantego) w Katowicach</option>
+	<option value="497">Technikum Nr 2 ( ZS im. H. Kołłątaja w Zawierciu)</option>
+	<option value="48">Technikum Nr 2 (ZS im. J.Kochanowskiego) w Częstochowie</option>
+	<option value="172">Technikum nr 2 (ZSME) w Rybniku</option>
+	<option value="238">Technikum Nr 2 (ZS Nr 2) w Żorach</option>
+	<option value="530">Technikum Nr 2 (ZSTiO "Meritum") w Siemianowicach Śląskich</option>
+	<option value="190">Technikum Nr 2 (ZST-U) w Będzinie</option>
+	<option value="1036">Technikum nr 20 ( ZS nr 1 im.gen. J. Ziętka) w Katowicach</option>
+	<option value="396">Technikum nr 2 Architektoniczno-Budowlane (CKZiU) w Sosnowcu</option>
+	<option value="326">Technikum nr 2 im. Komisji Edukacji Narodowej (ZSE) w Wodzisławiu Śl.</option>
+	<option value="205">Technikum Nr 2 im.Macierzy Ziemi Cieszyńskiej (ZSEG) w Cieszynie</option>
+	<option value="715">Technikum Nr 2 im. St. Ligonia (ZSP 2) w Rudzie Śląskiej</option>
+	<option value="112">Technikum nr 2 w Jaworznie (ZSP 2)</option>
+	<option value="483">Technikum Nr 2 w Kłobucku (ZS Nr 2)</option>
+	<option value="230">Technikum nr 2 w Lublińcu </option>
+	<option value="919">Technikum Nr 2 w Piekarach Śląskich</option>
+	<option value="13">Technikum Nr 2 w ZSB im.Gen.S.Maczka w Bielsku-Białej</option>
+	<option value="152">Technikum nr 3 (CKZiU)  w Mysłowicach</option>
+	<option value="239">Technikum Nr 3 (CKZiU) w Żorach</option>
+	<option value="260">Technikum nr 3 (PZS Nr 2) w Pszczynie</option>
+	<option value="503">Technikum Nr 3 (Zespół Szkół Ekonomicznych w Zawieciu) </option>
+	<option value="620">Technikum Nr 3 (Zespół Szkół Nr 3) w Zabrzu</option>
+	<option value="751">Technikum nr 3 (Zespół Szkół nr 4 im. Janusza Groszkowskiego) w Tychach</option>
+	<option value="49">Technikum Nr 3 ( ZSE) w Częstochowie</option>
+	<option value="77">Technikum nr 3 (ZSE) w Dąbrowie Górniczej</option>
+	<option value="345">Technikum Nr 3 (ZSE-G) w Żywcu</option>
+	<option value="173">Technikum nr 3 (ZSEU) w Rybniku</option>
+	<option value="358">Technikum Nr 3 (ZSG im. G.Morcinka) w Katowicach</option>
+	<option value="97">Technikum nr 3 (ZSH) w Jastrzębiu Zdroju</option>
+	<option value="296">Technikum nr 3 (ZSLiE) w Brynku</option>
+	<option value="669">Technikum Nr 3(ZSŁ) w Gliwicach</option>
+	<option value="856">Technikum nr 3 (ZSME)</option>
+	<option value="716">Technikum Nr 3 (ZSnr5) w Rudzie Śląskiej</option>
+	<option value="327">Technikum Nr 3 (ZST) w Wodzisławiu Śl.</option>
+	<option value="397">Technikum nr 3 Gastronomiczno-Hotelarskie (CKZiU) w Sosnowcu</option>
+	<option value="486">Technikum Nr 3 im. Kazimierza Kosińskiego w Kłobucku (ZS Nr 3)</option>
+	<option value="231">Technikum nr 3 w Lublińcu</option>
+	<option value="14">Technikum Nr 3 z Oddziałami Integracyjnymi w ZSEEiM w Bielsku-Białej</option>
+	<option value="276">Technikum Nr 4 (CKZiUnr 2) w Raciborzu</option>
+	<option value="663">Technikum Nr 4 (Zespół Szkół Budowlano-Ceramicznych) w Gliwicach</option>
+	<option value="630">Technikum Nr 4 (Zespół Szkół Ekonomiczno-Usługowych) w Zabrzu</option>
+	<option value="754">Technikum nr 4 (Zespół Szkół nr 5) w Tychach</option>
+	<option value="98">Technikum nr 4 (ZS 6) w Jastrzębiu Zdroju</option>
+	<option value="174">Technikum nr 4 (ZSB) w Rybniku</option>
+	<option value="346">Technikum Nr 4 (ZSDiL) w Żywcu</option>
+	<option value="50">Technikum Nr 4 (ZS im.gen.W.Andersa) w Częstochowie</option>
+	<option value="501">Technikum Nr 4 ( ZS im. St. Staszica w Zawierciu )</option>
+	<option value="924">Technikum Nr 4 (ZSO) w Żorach</option>
+	<option value="736">Technikum nr 4 (ZSP nr 4) w Rudzie Śląskiej</option>
+	<option value="76">Technikum nr 4 (ZST) w Dąbrowie Górniczej</option>
+	<option value="297">Technikum nr 4 (ZSTiO) w Tarnowskich Górach</option>
+	<option value="359">Technikum Nr 4 (ZSTiO Nr 2) w Katowicach</option>
+	<option value="207">Technikum Nr 4 im.gen.S.Grota Roweckiego (ZSB) w Cieszynie</option>
+	<option value="557">Technikum nr 4 im. M. Skłodowskiej-Curie  (T4) w Bytomiu</option>
+	<option value="398">Technikum nr 4 Transportowe (CKZiU) w Sosnowcu</option>
+	<option value="114">Technikum nr 4 w Jaworznie (ZSP 4)</option>
+	<option value="15">Technikum Nr 4 w ZSEk im.M.Kaleckiego w Bielsku-Białej</option>
+	<option value="675">Technikum Nr 5 (CKZiU nr 1) w Gliwicach</option>
+	<option value="51">Technikum Nr 5 (TZN im.gen.W.Sikorskiego) w Częstochowie</option>
+	<option value="298">Technikum nr 5  (WZS) w Tarnowskich Górach</option>
+	<option value="757">Technikum nr 5 (Zespół Szkół nr 6) w Tychach</option>
+	<option value="633">Technikum Nr 5 (Zespół Szkół Spożywczych) w Zabrzu</option>
+	<option value="175">Technikum nr  5 (ZS 5) w Rybniku</option>
+	<option value="819">Technikum nr 5 (ZSA-E i O) w Bytomiu</option>
+	<option value="360">Technikum Nr 5 (ZSH im. B.Prusa) w Katowicach</option>
+	<option value="499">Technikum Nr 5 ( ZS im. gen. J.Bema w Zawierciu)</option>
+	<option value="735">Technikum nr 5 (ZSP nr 5) w Rudzie Śląskiej</option>
+	<option value="347">Technikum Nr 5 (ZSS) w Żywcu</option>
+	<option value="99">Technikum nr 5 (ZSZ) w Jastrzębiu Zdroju</option>
+	<option value="822">Technikum nr 5  im. prof. Zbigniewa Religi w Lublińcu</option>
+	<option value="399">Technikum nr 5 Samochodowo-Mechatroniczne (CKZiU) w Sosnowcu</option>
+	<option value="115">Technikum nr 5 w Jaworznie (CKZiU)</option>
+	<option value="16">Technikum Nr 5 w ZSSiO w Bielsku-Białej</option>
+	<option value="625">Technikum Nr 6 (Zabrzańskie Centrum Kształcenia Ogólnego i Zawodowego) w Zabrzu</option>
+	<option value="760">Technikum nr 6  (Zespół Szkół nr 7) w Tychach</option>
+	<option value="299">Technikum nr 6 (ZSGH) w Tarnowskich Górach</option>
+	<option value="560">Technikum nr 6 (ZSTiO) w Bytomiu</option>
+	<option value="52">Technikum Nr 6 (ZSTiO im.S.Żeromskiego) w Częstochowie</option>
+	<option value="400">Technikum nr 6 Grafiki, Logistyki i Środowiska (CKZiU) w Sosnowcu</option>
+	<option value="348">Technikum Nr 6 im. J. Piłsudskiego (ZSAiO) w Żywcu</option>
+	<option value="116">Technikum nr 6 w Jaworznie (CKZiU)</option>
+	<option value="719">Technikum nr 6  w Rudzie Śląskiej</option>
+	<option value="17">Technikum Nr 6 w Zespole Szkół Ogrodniczych w Bielsku-Białej</option>
+	<option value="613">Technikum Nr 7 (Zespół Szkół Nr 10) w Zabrzu</option>
+	<option value="645">Technikum Nr 7 (Zespół Szkół Samochodowych) w Gliwicach</option>
+	<option value="300">Technikum nr 7 (ZSAP) w Tarnowskich Górach</option>
+	<option value="53">Technikum Nr 7 (ZS im.W.S.Reymonta) w Częstochowie</option>
+	<option value="361">Technikum Nr 7 (ZS Nr 7 im. S.Mastalerza) w Katowicach</option>
+	<option value="401">Technikum nr 7 Projektowania i Stylizacji Ubioru (CKZiU) w Sosnowcu</option>
+	<option value="18">Technikum Nr 7 w ZSTiH w Bielsku-Białej</option>
+	<option value="666">Technikum Nr 8 (Zespół Szkół Ekonomiczno-Technicznych) w Gliwicach</option>
+	<option value="636">Technikum Nr 8 (Zespół Szkół Nr 17) w Zabrzu</option>
+	<option value="402">Technikum nr 8 (ZSEiI) w Sosnowcu</option>
+	<option value="362">Technikum Nr 8 (ZS Łączności im. Obrońców Poczty Polskiej) w Katowicach</option>
+	<option value="54">Technikum Nr 8 im. M.Skłodowskiej-Curie (ZSG) w Częstochowie</option>
+	<option value="19">Technikum Nr 8 w ZSGiH w Bielsku-Białej</option>
+	<option value="302">Technikum nr 9 (CEEH) w Tarnowskich Górach</option>
+	<option value="55">Technikum Nr 9 (ZSM-E) w Częstochowie</option>
+	<option value="953">Technikum nr 9 (ZSU-R) w Bytomiu</option>
+	<option value="731">Technikum Ośrodka Edukacji ,,Sokrates" w Bielsku-Białej</option>
+	<option value="589">Technikum Samochodowe (ZST nr 2) w Chorzowie</option>
+	<option value="836">Technikum SOiZ w Cieszynie</option>
+	<option value="1021">Technikum Stowarzyszenia Przyjaciół Szkół Katolickich w Częstochowie</option>
+	<option value="707">Technikum TEB "Edukacja" w Bielsku-Białej</option>
+	<option value="858">Technikum TEB Edukacja w Częstochowie</option>
+	<option value="851">Technikum TEB Edukacja w Gliwicach</option>
+	<option value="859">Technikum TEB Edukacja w Jastrzębiu-Zdroju</option>
+	<option value="875">Technikum TEB Edukacja w Katowicach</option>
+	<option value="1056">Technikum TEB Edukacja w Raciborzu</option>
+	<option value="879">Technikum TEB Edukacja w Rybniku</option>
+	<option value="870">Technikum TEB Edukacja w Tychach</option>
+	<option value="814">Technikum w Bielsku-Białej (ZS-ZDZ Katowice)</option>
+	<option value="571">Technikum w Bieruniu </option>
+	<option value="783">Technikum w Bytomiu (ZS-ZDZ Katowice)</option>
+	<option value="889">Technikum w Cieszynie (ZS-ZDZ Katowice)</option>
+	<option value="282">Technikum w Czerwionce-Leszczynach</option>
+	<option value="1035">Technikum w Katowicach (ZS - ZDZ w Katowicach)</option>
+	<option value="489">Technikum w Krzepicach (ZS)</option>
+	<option value="574">Technikum w Lędzinach</option>
+	<option value="1024">Technikum w Siewierzu (ZSTiO)</option>
+	<option value="963">Technikum w Sosnowcu (ZS-ZDZ Katowice)</option>
+	<option value="1029">Technikum w Ustroniu ZDZ w Katowicach </option>
+	<option value="800">Technikum w Żarkach (ZS)</option>
+	<option value="466">Technikum w Żywcu (ZS-ZDZ Katowice)</option>
+	<option value="621">VIII Liceum Ogólnokształcące (Zespół Szkół Ogólnokształcących Nr 14) w Zabrzu</option>
+	<option value="948">VIII Liceum Ogólnokształcące Mistrzostwa Sportowego(ZSS) w Rybniku</option>
+	<option value="36">VIII Liceum Ogólnokształcące Samorządowe w Częstochowie</option>
+	<option value="848">VIII Liceum Ogólnokształcące w Bytomiu (ZSOnr5)</option>
+	<option value="7">VIII Liceum Ogólnokształcące w ZSMiO im.H.Chrzanowskiej w Bielsku-Białej</option>
+	<option value="659">VIII Liceum Ogólnokształcące z Odd. Integracyjnymi (ZSO) w Gliwicach</option>
+	<option value="129">VIII Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im.M.Skłodowskiej-Curie w Katowicach</option>
+	<option value="611">VII Liceum Ogólnokształcące (Zespół Szkół Nr 10) w Zabrzu</option>
+	<option value="166">VII Liceum Ogólnokształcące  (ZS 5) w Rybniku</option>
+	<option value="818">VII Liceum Ogólnokształcące (ZSA-E i O)w Bytomiu</option>
+	<option value="658">VII Liceum Ogólnokształcące (ZSO Nr 4 im.Piastów Śląskich) w Gliwicach</option>
+	<option value="594">VII Liceum Ogólnokształcące  (ZSTiO nr 4) w Chorzowie</option>
+	<option value="128">VII Liceum Ogólnokształcące im.Harcerzy Obrońców Katowic w Katowicach</option>
+	<option value="387">VII Liceum Ogólnokształcące im. K.K.Baczyńskiego (ZSO14) w Sosnowcu</option>
+	<option value="35">VII Liceum Ogólnokształcące im. M.Kopernika w Częstochowie</option>
+	<option value="289">VI Liceum Ogólnokształcące (ZSTU)  w Tarnowskich Górach</option>
+	<option value="34" selected="selected">VI Liceum Ogólnokształcące im. J.Dabrowskiego w Częstochowie</option>
+	<option value="127">VI Liceum Ogólnokształcące im.J.Długosza w Katowicach</option>
+	<option value="386">VI Liceum Ogólnokształcące im. J. Korczaka w Sosnowcu w Sosnowcu</option>
+	<option value="617">VI Liceum Ogólnokształcące  w Zabrzu</option>
+	<option value="6">VI Liceum Ogólnokształcące w ZSO im.AK w Bielsku-Białej</option>
+	<option value="544">V Liceum Ogólnokszt. Mistrzostwa Sportowego im. Kamili Skolimowskiej  w Bytomiu</option>
+	<option value="92">V Liceum Ogólnokształcące (ZS 5) w Jastrzębiu Zdroju</option>
+	<option value="531">V Liceum Ogólnokształcące (ZSS) w Siemianowicach</option>
+	<option value="33">V Liceum Ogólnokształcące im. A.Mickiewicza w Częstochowie</option>
+	<option value="340">V Liceum Ogólnokształcące im. J.Piłsudskiego ( ZSAiO) w Żywcu</option>
+	<option value="591">V Liceum Ogólnokształcące im. Nikoli Tesli (ZSTiO nr 3) w Chorzowie</option>
+	<option value="126">V Liceum Ogólnokształcące im.W.Broniewskiego w Katowicach</option>
+	<option value="5">V Liceum Ogólnokształcące w Bielsku-Białej</option>
+	<option value="656">V Liceum Ogólnokształcące z Oddz. Dwujęzycznymi im. A. Struga w Gliwicach</option>
+	<option value="69">V Liceum Ogólnokształcące z oddziałami dwujęzycznymi im. K. Zamoyskiego  w Dąbrowie Górniczej</option>
+	<option value="164">V Liceum Ogólnokształcące z Oddziałami Integracyjnymi im. J. Kukuczki (ZS 3) w Rybniku</option>
+	<option value="846">XII Liceum Ogólnokształcące (ZSSport) w Zabrzu</option>
+	<option value="40">XII Liceum Ogólnokształcące (ZSTiO im. S. Żeromskiego) w Częstochowie</option>
+	<option value="618">XI Liceum Ogólnokształcące (Zespół Szkół Nr 3) w Zabrzu</option>
+	<option value="883">XI Liceum Ogólnokształcące Sportowe w Gliwicach</option>
+	<option value="291">XI Liceum Ogólnokształcące z Odd. Integr. (Salezjański OSW) w Tarnowskich Górach</option>
+	<option value="134">XIV Liceum Ogólnokształcące im. mjr. H.Sucharskiego w Katowicach</option>
+	<option value="540">X Liceum Ogólnokształcące (PSB-ZS) w Bytomiu</option>
+	<option value="131">X Liceum Ogólnokształcące im.I.J.Paderewskiego w Katowicach</option>
+	<option value="138">XVIII Liceum Ogólnokształcące (ZSTiO Nr 3  im.E.Abramowskiego) w Katowicach</option>
+	<option value="872">XVI Liceum Ogólnokształcące (ZSTiO nr 2) w Katowicach</option>
+	<option value="135">XV Liceum Ogólnokształcące (XVLO  im. rtm.W.Pileckiego) w Katowicach</option>
+</select><input type="submit" name="j_idt46:j_idt58" value="Szukaj" />
+			<div style="clear:both;"></div><div id="j_idt46:results">
+			
+				<h2>Wyniki wyszukiwania szkół</h2><p>Liczba chętnych z I preferencji - liczba kandydatów, ktorzy wybrali ten oddział na pierwszym miejscu swojej listy preferencji, a ich wniosek został zaakceptowany przez szkołę.<br />
+* - Liczba chętnych ogółem do szkoły oznacza liczbę osób, które ubiegaja się o przyjęcie do co najmniej jednego oddziału w danej szkole, a ich wniosek został zaakceptowany<br />
+Liczba przed nawiasem - liczba osób, które wybrały dany oddział, a ich wniosek został zaakceptowany<br />
+Liczba w nawiasie - liczba osób, które wybrały dany oddział, ale nie dostarczyły jeszcze wniosku lub ich wniosek nie został jeszcze zweryfikowany
+</p>
+<table>
+<thead>
+<tr>
+<th class="name" scope="col">Szkoła-oddział/grupa</th>
+<th class="size" scope="col">Liczba miejsc</th>
+<th class="eager_total" scope="col">Liczba chętnych ogółem</th>
+<th class="eager_first_pref" scope="col">Liczba chętnych z pierwszej preferencji</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="">VI Liceum Ogólnokształcące im. J.Dabrowskiego w Częstochowie - 1a1 klasa pedagogiczna  </span></td>
+<td><span class="">15</span></td>
+<td>11(0)
+						</td>
+<td><span class="">0(0)
+						</span></td>
+</tr>
+<tr>
+<td><span class="">VI Liceum Ogólnokształcące im. J.Dabrowskiego w Częstochowie - 1a2 klasa pedagogiczna  </span></td>
+<td><span class="">0</span></td>
+<td>3(0)
+						</td>
+<td><span class="">0(0)
+						</span></td>
+</tr>
+<tr>
+<td><span class="">VI Liceum Ogólnokształcące im. J.Dabrowskiego w Częstochowie - 1b/1 ang-biol-chem </span></td>
+<td><span class="">0</span></td>
+<td>2(0)
+						</td>
+<td><span class="">0(0)
+						</span></td>
+</tr>
+<tr>
+<td><span class="">VI Liceum Ogólnokształcące im. J.Dabrowskiego w Częstochowie - 1b/2 biol-chem-geog/ang </span></td>
+<td><span class="">15</span></td>
+<td>0(0)
+						</td>
+<td><span class="">0(0)
+						</span></td>
+</tr>
+<tr>
+<td><span class="summary">VI Liceum Ogólnokształcące im. J.Dabrowskiego w Częstochowie  - RAZEM</span></td>
+<td><span class="summary">30</span></td>
+<td><span class="summary">14*</span></td>
+<td><span class="summary">0(0)
+						</span></td>
+</tr>
+</tbody>
+</table>
+</div><script type="text/javascript">$(function() {$(document).bind('keydown', 'left', function(){PrimeFaces.ab({s:"j_idt46:j_idt89",f:"j_idt46",u:"j_idt46:results"});;return false;});});</script><script type="text/javascript">$(function() {$(document).bind('keydown', 'right', function(){PrimeFaces.ab({s:"j_idt46:j_idt90",f:"j_idt46",u:"j_idt46:results"});;return false;});});</script><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:0" value="-1514934251663811161:6782627629598479164" autocomplete="off" />
+</form></div>
+	</main><div id="j_idt92_content" style="display: none;">
+	<div class="vulcan-loader">
+
+        <div class="spinner">
+            <div class="rect1"></div>
+            <div class="rect2"></div>
+            <div class="rect3"></div>
+            <div class="rect4"></div>
+            <div class="rect5"></div>
+        </div>
+        <p>Proszę czekać</p>
+
+    </div></div><script id="j_idt92_s" type="text/javascript">$(function() {PrimeFaces.cw('ExtBlockUI', 'uiBlocker',{id:'j_idt92',widgetVar:'uiBlocker',source:'body',autoShow:false,centerX:true,centerY:true,content:'#j_idt92_content',contentExtern:false,namingContSep:':',regEx:/javax.faces.source=body(.)*$/},true);});</script>
+
+    <script type="text/javascript">
+  	//<![CDATA[
+  	
+  		var showBlockUI = true;
+  	
+        function showWaitLabel() {
+            $.blockUI({ message: $('#waitLabel') });
+        }
+        function hideWaitLabel() {
+            $.unblockUI;
+        }
+
+        function waitLabelManageOnAjax(data) {
+            waitLabelManageOnAjaxHelper(data, true);
+        }
+        
+        function waitLabelManageOnAjaxNoScroll(data) {
+            waitLabelManageOnAjaxHelper(data, false);
+        }
+
+        function blockUI() {
+            if (showBlockUI) PF('uiBlocker').block();
+        }
+
+        function unblockUI() {
+            PF('uiBlocker').unblock();
+        }
+
+        function waitLabelManageOnAjaxHelper(data, withScroll) {
+            if (data.status == "begin") {
+                showblockUI = true;
+                setTimeout(blockUI, 400);
+            } 
+            else if (data.status == "complete"){
+            	showBlockUI = false;
+            	unblockUI();
+            } else if (data.status == "success") {
+                if (withScroll) {
+            		scrollToError();
+                }
+            }
+        }
+        function scrollToError() {
+            var el = $("#resume");
+        	if ((el.length) && (el.offset() != undefined) && (el.offset().top != undefined)) {
+            	$('html, body').animate({
+                	scrollTop: el.offset().top
+            	}, 1000);
+        	}
+        }
+    //]]>
+    </script>
+    <div id="waitLabel" style="display:none; padding: 15px;">
+	<div class="vulcan-loader">
+
+        <div class="spinner">
+            <div class="rect1"></div>
+            <div class="rect2"></div>
+            <div class="rect3"></div>
+            <div class="rect4"></div>
+            <div class="rect5"></div>
+        </div>
+        <p>Proszę czekać</p>
+
+    </div>
+    </div>
+
+	<aside></aside>
+		<footer>
+			<section>
+				<div class="footer">
+				</div>
+			</section>
+			
+	        <address>©  Vulcan Sp. z o.o. 2018 
+            	<a href="https://www.vulcan.edu.pl/programy/nabor-52" target="_blank" title="Kliknij, aby zobaczyć więcej informacji">Nabór szkoły ponadgimnazjalne</a> wersja: 18.6.3
+
+	            <a href="http://www.vulcan.edu.pl/pliki-cookies-w-aplikacjach-hostowanych" target="_blank">Polityka prywatności (pliki cookie)</a>
+	        </address>
+
+		</footer>
+	<menu></menu></body>
+
+</html>
